@@ -30,7 +30,7 @@ namespace BestBuddiesShare.Entities
 
     public class Buddy
     {
-        public int[] PrefferedLocationsIds
+        public int[] PrefferedLocationsIds { get; set; }
         public ContactInfo ContactInfo { get; set; }
         public ContactInfo EmergencyContactInfo { get; set; }
         public string ShirtSize { get; set; }

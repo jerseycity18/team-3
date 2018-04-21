@@ -13303,11 +13303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesApi\\BestBuddiesApi.csproj",
+      "projectUniqueName": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesApi\\BestBuddiesApi.csproj",
       "projectName": "BestBuddiesApi",
-      "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesApi\\BestBuddiesApi.csproj",
+      "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesApi\\BestBuddiesApi.csproj",
       "packagesPath": "C:\\Users\\Basia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesApi\\obj\\",
+      "outputPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13326,11 +13326,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj": {
-              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj"
+            "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj": {
+              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj"
             },
-            "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj": {
-              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj"
+            "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj": {
+              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj"
             }
           }
         }

@@ -3352,11 +3352,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj",
+      "projectUniqueName": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj",
       "projectName": "BuddyServer",
-      "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj",
+      "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BuddyServer\\BuddyServer.csproj",
       "packagesPath": "C:\\Users\\Basia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BuddyServer\\obj\\",
+      "outputPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BuddyServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3375,8 +3375,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj": {
-              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj"
+            "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj": {
+              "projectPath": "C:\\Users\\Basia\\Source\\Repos\\team-3\\Server\\BestBuddiesApi\\BestBuddiesShare\\BestBuddiesShare.csproj"
             }
           }
         }
