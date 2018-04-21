@@ -1,0 +1,11 @@
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\ApiServer.deps.json
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\ApiServer.runtimeconfig.json
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\ApiServer.runtimeconfig.dev.json
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\ApiServer.dll
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\ApiServer.pdb
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.csprojResolveAssemblyReference.cache
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.AssemblyInfo.cs
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.dll
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.pdb
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.dll
+C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.pdb
