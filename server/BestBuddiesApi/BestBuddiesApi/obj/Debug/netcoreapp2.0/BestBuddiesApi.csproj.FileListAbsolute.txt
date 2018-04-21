@@ -9,3 +9,6 @@ C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\obj\Debu
 C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\obj\Debug\netcoreapp2.0\BestBuddiesApi.AssemblyInfo.cs
 C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\obj\Debug\netcoreapp2.0\BestBuddiesApi.dll
 C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\obj\Debug\netcoreapp2.0\BestBuddiesApi.pdb
+C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\bin\Debug\netcoreapp2.0\BestBuddiesShare.dll
+C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\bin\Debug\netcoreapp2.0\BestBuddiesShare.pdb
+C:\Users\Basia\Source\Repos\team-3\Server\BestBuddiesApi\BestBuddiesApi\obj\Debug\netcoreapp2.0\BestBuddiesApi.csproj.CopyComplete
