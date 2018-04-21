@@ -24,7 +24,7 @@ class App extends React.Component {
       <ScrollView>
         <Header 
           backgroundColor={'#5a4099e6'}
-          centerComponent={{text: 'BEST BUDDIES!', style: {color: '#fff'}}}
+          centerComponent={{text: 'BEST BUDDIES!', style: {color: '#fff' }}}
         />
         <Image 
           source={{uri:'https://www.bestbuddies.org/wp-content/uploads/2017/01/best-buddies-logo2.png'}}
