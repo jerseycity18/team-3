@@ -6,6 +6,17 @@ using System.Threading.Tasks;
 
 namespace BestBuddiesShare.Entities
 {
+    public class MustHave
+    {
+        public int Id { get; set; }
+        public string Description { get; set; }
+    }
+    public class Interest
+    {
+        public int Id { get; set; }
+        public string Description { get; set; }
+    }
+
     public class Participant: Buddy
     {
         public string SpecialNeeds { get; set; }
@@ -13,7 +24,7 @@ namespace BestBuddiesShare.Entities
 
     public class Volunteer: Buddy
     {
-        public string GenderPrefernce { get; set; }
+        public string GenderPreference { get; set; }
     }
 
     public class Buddy
@@ -21,8 +32,8 @@ namespace BestBuddiesShare.Entities
         public ContactInfo ContactInfo { get; set; }
         public ContactInfo EmergencyContactInfo { get; set; }
         public string ShirtSize { get; set; }
-        public int[] Interests { get; set; }
-        public int [] MustHaves { get; set; }
+        public IList<Interest> Interests { get; set; }
+        public IList<MustHave> MustHaves { get; set; }
     }
 
     public class ContactInfo
@@ -34,12 +45,11 @@ namespace BestBuddiesShare.Entities
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string Email { get; set; }
-        public string Phone { get; set; }
         public Address Address { get; set; }
         public Phone PrimaryPhone { get; set; }
         public Phone AltPhone1 { get; set; }
         public Phone AltPhone2 { get; set; }
-        public string CallWork { get; set; }
+        public bool OKToCallWork { get; set; }
     }
 
     public class Address
