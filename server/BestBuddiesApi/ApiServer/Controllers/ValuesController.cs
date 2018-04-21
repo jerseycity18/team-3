@@ -8,6 +8,27 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiServer.Controllers
 {
     [Route("api/[controller]")]
+    public class HobbyLookupController
+    {
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new List<string>();
+        }
+    }
+
+
+    [Route("api/[controller]")]
+    public class InterestLookupController
+    {
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new List<string>();
+        }
+    }
+
+    [Route("api/[controller]")]
     public class BuddyController : Controller
     {
         [HttpGet]
