@@ -9,15 +9,6 @@ class ProfileList extends Component {
 
 		};
 		this.handleClick=this.handleClick.bind(this);
-
-
-		// this.handleChange=this.handleChange.bind(this);
-		// this.handleFocus=this.handleFocus.bind(this);
-		// this.handleBlur=this.handleBlur.bind(this);
-		// this.handleSubmit=this.handleSubmit.bind(this);this.handleChange=this.handleChange.bind(this);
-		// this.handleFocus=this.handleFocus.bind(this);
-		// this.handleBlur=this.handleBlur.bind(this);
-		// this.handleSubmit=this.handleSubmit.bind(this);
 	}
 
 	componentDidMount(){
@@ -31,17 +22,10 @@ class ProfileList extends Component {
 		.then((responseJson) => {
 			console.log('resp',responseJson);
 			this.setState({people:responseJson});
-			// if(this.state.searchHistory.indexOf(this.state.search)<0){
-			// 	this.setState({gifs: responseJson.data,searchHistory:[this.state.search,...this.state.searchHistory]});
-			// }else{
-			// 	this.setState({gifs: responseJson.data});
-			// }
 		})
 		.catch((error) => {
 			console.error(error);
 		});
-
-		// https://api.giphy.com/v1/gifs/search?api_key=f4ee250fb7fc4ccf88cc2260099165c8&q=puppies&limit=25&offset=0&rating=G&lang=en
 	}
 	
 	handleClick(e){
@@ -51,7 +35,6 @@ class ProfileList extends Component {
 		let buddy=this.state.people;
 		return (
 		  <section>
-			  {/*<img src={logo} className="App-logo" alt="logo" />*/}
 			  <h1 className="App-title">Buddies</h1>
 			  <ul>
 				  {
