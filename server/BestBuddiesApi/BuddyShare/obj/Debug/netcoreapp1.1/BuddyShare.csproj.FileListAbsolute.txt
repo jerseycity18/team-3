@@ -1,6 +1,0 @@
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\bin\Debug\netcoreapp1.1\BuddyShare.deps.json
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\bin\Debug\netcoreapp1.1\BuddyShare.dll
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\bin\Debug\netcoreapp1.1\BuddyShare.pdb
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\obj\Debug\netcoreapp1.1\BuddyShare.AssemblyInfo.cs
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\obj\Debug\netcoreapp1.1\BuddyShare.dll
-C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyShare\obj\Debug\netcoreapp1.1\BuddyShare.pdb
