@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BestBuddiesShare.Business;
 using BestBuddiesShare.Entities;
+using BuddyServer;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiServer.Controllers

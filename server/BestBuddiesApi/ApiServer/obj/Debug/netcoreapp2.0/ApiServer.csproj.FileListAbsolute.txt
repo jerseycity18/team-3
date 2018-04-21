@@ -1,0 +1,16 @@
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\ApiServer.deps.json
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\ApiServer.runtimeconfig.json
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\ApiServer.runtimeconfig.dev.json
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\ApiServer.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\ApiServer.pdb
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\BestBuddiesShare.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\BuddyServer.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\BestBuddiesShare.pdb
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp2.0\BuddyServer.pdb
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.csprojResolveAssemblyReference.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.csproj.CoreCompileInputs.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.AssemblyInfoInputs.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.AssemblyInfo.cs
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.csproj.CopyComplete
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp2.0\ApiServer.pdb

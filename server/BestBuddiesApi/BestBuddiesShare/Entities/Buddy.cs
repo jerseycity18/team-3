@@ -17,18 +17,20 @@ namespace BestBuddiesShare.Entities
         public string Description { get; set; }
     }
 
-    public class Participant: Buddy
+    public class Participant : Buddy
     {
         public string SpecialNeeds { get; set; }
     }
 
-    public class Volunteer: Buddy
+    public class Volunteer : Buddy
     {
         public string GenderPreference { get; set; }
     }
 
+
     public class Buddy
     {
+        public int[] PrefferedLocationsIds
         public ContactInfo ContactInfo { get; set; }
         public ContactInfo EmergencyContactInfo { get; set; }
         public string ShirtSize { get; set; }

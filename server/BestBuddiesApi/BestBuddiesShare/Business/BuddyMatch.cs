@@ -11,18 +11,27 @@ namespace BestBuddiesShare.Business
     {
         IEnumerable<Volunteer> MatchBuddies(Buddy buddy, List<Volunteer> volunteers)
         {
-            //First Location
-            var query = volunteers.Where(x=>x.ContactInfo.Address.City==buddy.ContactInfo.Address.City)
-                .Select(g => new { VolunteerInfo = g, Points = 0 });
+            // Only get volunteers withing buddy preferred location
+            var query = volunteers.Where(x=>x.PrefferedLocationsIds.Intersect(buddy.PrefferedLocationsIds).Count() > 0)
+                .Select(g => new VolunteerRanking { VolunteerInfo = g, Points = 0 });
 
-            //Interests
-            foreach(var volunteerPoints in query.ToList())
+            IEnumerable<VolunteerRanking> volunteerRankings = query.ToList();
+
+            foreach(VolunteerRanking volunteerRanking in volunteerRankings)
             {
-                var matchinInterestCount = buddy.Interests.Intersect(volunteerPoints.VolunteerInfo.Interests).Count();
-                //volunteerPoints.Points = matchinInterestCount;
+                var matchinInterestCount = buddy.Interests.Intersect(volunteerRanking.VolunteerInfo.Interests).Count();
+                var mustHaveCount = buddy.MustHaves.Intersect(volunteerRanking.VolunteerInfo.MustHaves).Count();
+                volunteerRanking.Points += matchinInterestCount; //Each matching interest gets 1 point
+                volunteerRanking.Points += mustHaveCount * 3; //MustHave matches are more important than interests therefore they get 3 points
             }
-            return null;
 
+            return volunteerRankings.OrderByDescending(x=>x.Points).Take(5).Select(x=>x.VolunteerInfo);
         }
+    }
+
+    public class VolunteerRanking
+    {
+        public Volunteer VolunteerInfo { get; set; }
+        public int Points { get; set; }
     }
 }

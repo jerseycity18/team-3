@@ -9,3 +9,12 @@ C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\
 C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.pdb
 C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.dll
 C:\dev\code4good\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.pdb
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\bin\Debug\netcoreapp1.1\BuddyShare.pdb
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.csprojResolveAssemblyReference.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.csproj.CoreCompileInputs.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.AssemblyInfoInputs.cache
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.AssemblyInfo.cs
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.csproj.CopyComplete
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.dll
+C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\ApiServer\obj\Debug\netcoreapp1.1\ApiServer.pdb

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,8 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BuddyShare\BuddyShare.csproj" />
+    <ProjectReference Include="..\BestBuddiesShare\BestBuddiesShare.csproj" />
+    <ProjectReference Include="..\BuddyServer\BuddyServer.csproj" />
   </ItemGroup>
 
 </Project>
