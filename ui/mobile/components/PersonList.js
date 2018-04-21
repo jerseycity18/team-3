@@ -10,22 +10,32 @@ export default class PersonList extends React.Component {
     }
     // pass in the list of people through props 
     componentDidMount () {
-   
+      
     }
   
     render () {
       return (
         // FOR EVERY ITEM IN THE DATA PASSED THROUGH PROPS, RENDER A PERSON
         <View>
-          <Text>List of Either Buddy or Volunteer</Text>
+
           {
             this.props.buddies.map(e => 
               <Person qualities={e} key={e.id}/>
             )
           }
         </View>
-        
-        
+
       ) 
     }
   }
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center'
+     
+    },
+  });
+

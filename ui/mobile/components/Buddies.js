@@ -10,11 +10,10 @@ export default class Buddies extends React.Component {
   // for every item in the data, create a Person 
   
   render () {
-    
-    console.log(buddyData);
+    const title = 'Buddies'
     return (
       <ScrollView>
-        <Text>List of Buddies</Text>
+        <Text>{title}</Text>
         <PersonList buddies={buddyData} />
       </ScrollView>
     )

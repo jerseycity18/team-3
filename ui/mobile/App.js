@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, ScrollView, Image } from 'react-native';
+import { Header } from 'react-native-elements';
 import { StackNavigator } from 'react-navigation';
 import Buddies from './components/Buddies';
 import Volunteers from './components/Volunteers';
@@ -20,15 +21,24 @@ class App extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Best Buddies!</Text>
-        <TouchableOpacity onPress={this.handleBuddiesClick}>
-          <Text>You have X new buddies</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={this.handleVolunteersClick}>
-          <Text>You have X new Volunteers</Text>
-        </TouchableOpacity>
-      </View>
+      <ScrollView>
+        <Header 
+          backgroundColor={'#5a4099e6'}
+          centerComponent={{text: 'BEST BUDDIES!', style: {color: '#fff'}}}
+        />
+        <Image 
+          source={{uri:'https://www.bestbuddies.org/wp-content/uploads/2017/01/best-buddies-logo2.png'}}
+          style={{ width: 100, height: 100, position: 'absolute' }}
+          />
+        <View style={styles.container}>
+          <TouchableOpacity onPress={this.handleBuddiesClick}>
+            <Text>You have X new buddies</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={this.handleVolunteersClick}>
+            <Text>You have X new Volunteers</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
     );
   }
 }
@@ -36,10 +46,15 @@ class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#9396cb4d',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header: {
+    backgroundColor: '#5a4099e6',
+    height: 200
+  }
+
 });
 
 export default StackNavigator ({
