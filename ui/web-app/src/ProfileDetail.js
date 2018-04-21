@@ -40,10 +40,10 @@ class ProfileDetail extends Component {
 			  <div>
 				  <h2 className="App-title">Matches  +Filter</h2>
 				  <ul>
-					  <li>Alice Chuang 99%</li>
-					  <li>Uciel 90%</li>
-					  <li>Kamil 85%</li>
-					  <li>James 80%</li>
+					  <li><Link to="/volunteer/1">Alice Chuang 99%</Link></li>
+					  <li><Link to="/volunteer/1">Uciel 99%</Link></li>
+					  <li><Link to="/volunteer/1">James 99%</Link></li>
+					  <li><Link to="/volunteer/1">Kamil 99%</Link></li>
 				  </ul>
 			  </div>
 		  </section>
