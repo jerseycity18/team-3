@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBuddiesShare", "BestBud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiServer", "ApiServer\ApiServer.csproj", "{F52A0CA0-A835-46C3-8953-D59511803E12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuddyShare", "BuddyShare\BuddyShare.csproj", "{9F9A05C1-A33B-4247-BB32-D58A05FD2062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F52A0CA0-A835-46C3-8953-D59511803E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52A0CA0-A835-46C3-8953-D59511803E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52A0CA0-A835-46C3-8953-D59511803E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9A05C1-A33B-4247-BB32-D58A05FD2062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9A05C1-A33B-4247-BB32-D58A05FD2062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9A05C1-A33B-4247-BB32-D58A05FD2062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9A05C1-A33B-4247-BB32-D58A05FD2062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

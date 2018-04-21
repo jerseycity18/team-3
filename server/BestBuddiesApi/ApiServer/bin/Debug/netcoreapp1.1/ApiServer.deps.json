@@ -23,7 +23,7 @@
     ".NETCoreApp,Version=v1.1": {
       "apiserver/1.0.0": {
         "dependencies": {
-          "BestBuddiesShare": "1.0.0",
+          "BuddyShare": "1.0.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.AspNetCore.Mvc": "1.1.2",
@@ -1381,12 +1381,15 @@
           "lib/netstandard1.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "bestbuddiesshare/1.0.0": {
+      "buddyshare/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        },
         "runtime": {
-          "BestBuddiesShare.dll": {}
+          "BuddyShare.dll": {}
         },
         "compile": {
-          "BestBuddiesShare.dll": {}
+          "BuddyShare.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -3698,7 +3701,7 @@
       "path": "system.text.encodings.web/4.3.0",
       "hashPath": "system.text.encodings.web.4.3.0.nupkg.sha512"
     },
-    "bestbuddiesshare/1.0.0": {
+    "buddyshare/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

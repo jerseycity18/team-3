@@ -2,39 +2,40 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BestBuddiesShare.Business;
 using BestBuddiesShare.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiServer.Controllers
 {
     [Route("api/[controller]")]
-    public class HobbyLookupController
-    {
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new List<string>();
-        }
-    }
-
-
-    [Route("api/[controller]")]
     public class InterestLookupController
     {
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IList<Interest> Get()
         {
-            return new List<string>();
+            return EntityStore.Instance.GetInterests();
+        }
+    }
+
+
+    [Route("api/[controller]")]
+    public class MustHaveLookupController
+    {
+        [HttpGet]
+        public IList<MustHave> Get()
+        {
+            return EntityStore.Instance.GetMustHaves();
         }
     }
 
     [Route("api/[controller]")]
-    public class BuddyController : Controller
+    public class VolunteerController : Controller
     {
         [HttpGet]
-        public IEnumerable<Participant> Get()
+        public IList<Volunteer> Get()
         {
-            return new List<Participant>();
+            return EntityStore.Instance.GetVolunteers();
         }
 
         [HttpPost]
@@ -50,40 +51,25 @@ namespace ApiServer.Controllers
         }
     }
 
-
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ParticipantController : Controller
     {
-        // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IList<Participant> Get()
         {
-            return new string[] { "value1", "value2" };
+            return EntityStore.Instance.GetParticipants();
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post()
         {
+            return Ok();
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpDelete]
+        public IActionResult Delete()
         {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return Ok();
         }
     }
 }
