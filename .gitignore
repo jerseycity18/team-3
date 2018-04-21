@@ -4,3 +4,5 @@
 
 /.vs
 /server/BestBuddiesApi/.vs/BestBuddiesApi/v15
+/server/BestBuddiesApi/BuddyDb
+/server/BestBuddiesApi/BuddyData
