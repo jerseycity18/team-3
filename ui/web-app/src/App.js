@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavLink from "react-router-dom/es/NavLink";
+
 
 
 class App extends Component {
@@ -8,7 +10,11 @@ class App extends Component {
     return (
       <div className="App">
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            <form action="">
+                <input type="text" value="chris@bestbuddies.org" />
+                <input type="text" value="1234" />
+            </form>
+            <NavLink to="Dashboard">Login</NavLink>
         </p>
       </div>
     );

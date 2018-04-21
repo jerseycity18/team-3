@@ -27,7 +27,6 @@ namespace BestBuddiesShare.Entities
         public string GenderPreference { get; set; }
     }
 
-
     public class Buddy
     {
         public ContactInfo ContactInfo { get; set; }
