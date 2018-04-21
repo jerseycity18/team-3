@@ -9,10 +9,12 @@ class ProfileDetail extends Component {
 
 			  <div>
 				  <h1 className="App-title">Buddy Profile</h1>
+				  <h2><img src="https://s3.amazonaws.com/uifaces/faces/twitter/ceekaytweet/128.jpg" /></h2>
 				  <h3>
 					  Buddy: David Orlansky <br />
 					  Volunteer Assigned: Alice Chuang
 				  </h3>
+
 			  </div>
 			  <div>
 				  <h2 className="App-title">Bio</h2>
