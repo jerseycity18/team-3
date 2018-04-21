@@ -1,2 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-Best-Buddies-Adult-Friendship-Matches-data-JP-Morgan-v2\.xlsx
+/.vs
+/server/BestBuddiesApi/.vs/BestBuddiesApi/v15
