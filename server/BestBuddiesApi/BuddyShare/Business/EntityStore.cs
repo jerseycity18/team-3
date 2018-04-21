@@ -71,7 +71,55 @@ namespace BestBuddiesShare.Business
         {
             return new List<Participant>
             {
-                
+                new Participant
+                {
+                    ShirtSize = "M",
+                    SpecialNeeds = "Requires mobility assistance",
+                    ContactInfo = new ContactInfo
+                    {
+                        FirstName = "John",
+                        LastName = "Doe",
+                        Gender = "M",
+                        OKToCallWork = true,
+                        PrimaryPhone = new Phone
+                        {
+                            Number = "123-456-7890",
+                            Type = "Mobile"
+                        },
+                        Address = new Address
+                        {
+                            AddressLine1 = "123 234 Street",
+                            City = "New York",
+                            State = "NY",
+                            Zip = "11111"
+                        },
+                        Email = "abc@xxxxxyyyy.com"
+                    }
+                },
+                new Participant
+                {
+                    ShirtSize = "S",
+                    ContactInfo = new ContactInfo
+                    {
+                        FirstName = "Jane",
+                        LastName = "Doe",
+                        Gender = "F",
+                        OKToCallWork = true,
+                        PrimaryPhone = new Phone
+                        {
+                            Number = "234-456-7890",
+                            Type = "Mobile"
+                        },
+                        Address = new Address
+                        {
+                            AddressLine1 = "123 234 Street",
+                            City = "New York",
+                            State = "NY",
+                            Zip = "11111"
+                        },
+                        Email = "abc@xxxxxyyyy.com"
+                    },
+                }            
             };
         }
 

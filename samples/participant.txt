@@ -1,0 +1,62 @@
+[
+  {
+    "specialNeeds": "Requires mobility assistance",
+    "contactInfo": {
+      "title": null,
+      "firstName": "John",
+      "lastName": "Doe",
+      "middle": null,
+      "dateOfBirth": "0001-01-01T00:00:00",
+      "gender": "M",
+      "email": "abc@xxxxxyyyy.com",
+      "address": {
+        "addressLine1": "123 234 Street",
+        "addressLine2": null,
+        "city": "New York",
+        "zip": "11111",
+        "state": "NY"
+      },
+      "primaryPhone": {
+        "type": "Mobile",
+        "number": "123-456-7890"
+      },
+      "altPhone1": null,
+      "altPhone2": null,
+      "okToCallWork": true
+    },
+    "emergencyContactInfo": null,
+    "shirtSize": "M",
+    "interests": null,
+    "mustHaves": null
+  },
+  {
+    "specialNeeds": null,
+    "contactInfo": {
+      "title": null,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "middle": null,
+      "dateOfBirth": "0001-01-01T00:00:00",
+      "gender": "F",
+      "email": "abc@xxxxxyyyy.com",
+      "address": {
+        "addressLine1": "123 234 Street",
+        "addressLine2": null,
+        "city": "New York",
+        "zip": "11111",
+        "state": "NY"
+      },
+      "primaryPhone": {
+        "type": "Mobile",
+        "number": "234-456-7890"
+      },
+      "altPhone1": null,
+      "altPhone2": null,
+      "okToCallWork": true
+    },
+    "emergencyContactInfo": null,
+    "shirtSize": "S",
+    "interests": null,
+    "mustHaves": null
+  }
+]
