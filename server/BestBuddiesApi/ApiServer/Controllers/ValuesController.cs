@@ -2,10 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BestBuddiesShare.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiServer.Controllers
 {
+    [Route("api/[controller]")]
+    public class BuddyController : Controller
+    {
+        [HttpGet]
+        public IEnumerable<Participant> Get()
+        {
+            return new List<Participant>();
+        }
+
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok();
+        }
+
+        [HttpDelete]
+        public IActionResult Delete()
+        {
+            return Ok();
+        }
+    }
+
+
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
