@@ -10,3 +10,8 @@ C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\n
 C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.csproj.CopyComplete
 C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.dll
 C:\Users\Basia\Source\Repos\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.pdb
+C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyServer\bin\Debug\netcoreapp2.0\BuddyServer.deps.json
+C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.csprojResolveAssemblyReference.cache
+C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.AssemblyInfo.cs
+C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.dll
+C:\dev\code4good\team-3\server\BestBuddiesApi\BuddyServer\obj\Debug\netcoreapp2.0\BuddyServer.pdb
